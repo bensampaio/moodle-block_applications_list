@@ -1,0 +1,7 @@
+.block_applications_list .column {width: 100%;}
+
+.block_applications_list .option {padding-bottom: 3px; margin-bottom: 5px; border-bottom: 1px solid #ddd; display:block;}
+
+.block_applications_list .empty {margin: 0px;}
+
+.block_applications_list .footer {margin-top: 5px; text-align:center;}
