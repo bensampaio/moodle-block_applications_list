@@ -30,3 +30,4 @@ $plugin->requires  = 2011120500;        // Requires this Moodle version
 $plugin->maturity = MATURITY_STABLE;
 $plugin->release = '2.2 (Build: 2011120500)';
 $plugin->component = 'block_applications_list'; // Full name of the plugin (used for diagnostics)
+$plugin->dependencies = array('local_applications' => ANY_VERSION);
