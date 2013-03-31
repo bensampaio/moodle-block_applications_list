@@ -9,9 +9,7 @@
 
 $string['pluginname'] = 'Applications list';
 
-$string['myapplications'] = 'My Applications';
-$string['allapplications'] = 'All Applications';
-
+$string['all-applications'] = 'All Applications';
 $string['empty-applications'] = 'No favorite Applications found.';
 $string['plugin-missing'] = 'To use this plugin you must also install this one:';
 

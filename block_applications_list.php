@@ -23,7 +23,7 @@ class block_applications_list extends block_list {
 
 			if(local_applications_table_exists()) {
 
-				$this->title = get_string('myapplications', 'block_applications_list');
+				$this->title = get_string('my-applications', 'local_applications');
 
 				if (isloggedin() and !isguestuser()) {    // Just print Favorite Applications
 
@@ -50,7 +50,7 @@ class block_applications_list extends block_list {
 
 					$this->content->footer =
 						"<a href=\"$CFG->wwwroot/local/applications/index.php\">".
-							format_string(get_string('allapplications', 'block_applications_list')).
+							format_string(get_string('all-applications', 'block_applications_list')).
 						"</a>";
 		        }
 			}
